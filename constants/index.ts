@@ -87,17 +87,17 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://instagram.com/conrad_o1",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://facebook.com/Conrad",
   },
   {
     name: "Twitter",
     icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    link: "https://x.com/just_conrad01",
   },
 ] as const;
 
@@ -175,22 +175,22 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "🛒 Tekisky Mart – The Future of eCommerce",
-    
-    image: "/projects/project-1.webp",
-    link: "https://tekiskymart.com/",
+    title: "Anitta AI - Mental Health Companion",
+    description: "An AI-powered therapeutic companion designed specifically for youth mental health support and guidance.",
+    image: "/projects/project-1.png",
+    link: "https://hume-evi-next-js-starter-ruddy.vercel.app/",
   },
   {
-    title: "Tekisky – The Future of Tech",
-
-    image: "/projects/project-2.webp",
-    link: "https://tekisky.com/",
+    title: "Activerse - Blockchain Meets Reality",
+    description: "A revolutionary platform that bridges blockchain technology with real-world actions and achievements.",
+    image: "/projects/project-2.png",
+    link: "https://activerse.midascreed.com/",
   },
   {
-    title: "Speedline Auto Parts – The Future of Auto Parts",
-   
-    image: "/projects/project-3.webp",
-    link: "https://speedlineautoparts.netlify.app/",
+    title: "Rhema-AI - Healthcare Assistant",
+    description: "An intelligent AI healthcare assistant providing personalized medical guidance and support.",
+    image: "/projects/project-3.png",
+    link: "https://rhema-ai.vercel.app/",
   },
 ] as const;
 
@@ -198,34 +198,30 @@ export const FOOTER_DATA = [
   {
     title: "Community",
     data: [
-
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/Conyx01",
       },
-
     ],
   },
   {
     title: "Social Media",
     data: [
-
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://www.linkedin.com/in/abdul-raheman-389597281/",
+        link: "https://www.linkedin.com/in/conrad-zidana-94554b21b",
       },
     ],
   },
   {
     title: "About",
     data: [
-   
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:arrahmanofficial9@gmail.com",
+        link: "mailto:conrad01zidana@gmail.com",
       },
     ],
   },
