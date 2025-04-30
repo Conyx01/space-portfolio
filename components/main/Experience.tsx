@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "../ui/MovingBorders";
+import Image from "next/image";
 
 export const Experience = () => {
   return (
@@ -23,9 +24,11 @@ export const Experience = () => {
             >
               <div className="flex items-center gap-4 p-6">
                 <div className="flex-shrink-0">
-                  <img
+                  <Image
                     src="/work/midascreed.svg"
                     alt="MidasCreed"
+                    width={64}
+                    height={64}
                     className="w-16 h-16"
                   />
                 </div>
@@ -53,9 +56,11 @@ export const Experience = () => {
             >
               <div className="flex items-center gap-4 p-6">
                 <div className="flex-shrink-0">
-                  <img
+                  <Image
                     src="/work/ai-hub.svg"
                     alt="AI & Innovation Hub"
+                    width={64}
+                    height={64}
                     className="w-16 h-16"
                   />
                 </div>
@@ -86,9 +91,11 @@ export const Experience = () => {
             >
               <div className="flex items-center gap-4 p-6">
                 <div className="flex-shrink-0">
-                  <img
+                  <Image
                     src="/work/idias.svg"
                     alt="Idias Corporation"
+                    width={64}
+                    height={64}
                     className="w-16 h-16"
                   />
                 </div>
@@ -116,9 +123,11 @@ export const Experience = () => {
             >
               <div className="flex items-center gap-4 p-6">
                 <div className="flex-shrink-0">
-                  <img
+                  <Image
                     src="/work/midbridge.svg"
                     alt="MidBridge"
+                    width={64}
+                    height={64}
                     className="w-16 h-16"
                   />
                 </div>

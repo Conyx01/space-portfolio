@@ -167,10 +167,27 @@ export const BACKEND_SKILL = [
 ] as const;
 
 export const FULLSTACK_SKILL = [
+  {
+    skill_name: "Next.js",
+    image: "next.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "TypeScript",
+    image: "ts.png",
+    width: 80,
+    height: 80,
+  },
 ] as const;
 
 export const OTHER_SKILL = [
-
+  {
+    skill_name: "Docker",
+    image: "docker.png",
+    width: 80,
+    height: 80,
+  },
 ] as const;
 
 export const PROJECTS = [
